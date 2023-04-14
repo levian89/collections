@@ -26,13 +26,13 @@ public class StudentsCollectionRunner
 
         System.out.println(studentsAl);
 
-        Collections.sort(studentsAl);
+        Collections.sort(studentsAl);    // using Comparable interface
         System.out.println("Asc " + studentsAl);
 
 //        Collections.sort(studentsAl, new DescendingStudentComparator());
 //        System.out.println("DescendingStudentComparator " + studentsAl);
 
-        studentsAl.sort(new DescendingStudentComparator());
+        studentsAl.sort(new DescendingStudentComparator());  // using Comparator interface
         System.out.println("DescendingStudentComparator " + studentsAl);
 
 
