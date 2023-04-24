@@ -24,6 +24,10 @@ public class StudentsCollectionRunner
         List<Student> studentsAl = new ArrayList<>(students);
         //System.out.println(students);
 
+//    or like this:
+//        List<Student> studentsAl = new ArrayList<>(List.of(new Student(1,"Ranga"),
+//                new Student(100, "Adam"),
+//                new Student(2, "Eve")));
         System.out.println(studentsAl);
 
         Collections.sort(studentsAl);    // using Comparable interface
